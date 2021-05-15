@@ -7,7 +7,7 @@ void run() {
     printf("Please input a number:");
     scanf("%d", &n);
     if (n > 1) {
-        int s = (unsigned int) sqrt(n);
+        int s = (int) sqrt(n);
         for (int i = 2; i <= s; ++i) {
             if (n % i == 0) {
                 b = 0;
